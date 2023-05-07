@@ -173,7 +173,7 @@ std::unordered_map<std::string, uint32_t> keys = {
     {"Offroad_NoFirmware", CLEAR_ON_MANAGER_START | CLEAR_ON_IGNITION_ON},
     {"Offroad_StorageMissing", CLEAR_ON_MANAGER_START},
     {"Offroad_TemperatureTooHigh", CLEAR_ON_MANAGER_START},
-    {"Offroad_UnofficialHardware", CLEAR_ON_MANAGER_START},
+    {"Offroad_UnofficialHardware", CLEAR_ON_MANAGER_START | CLEAR_ON_IGNITION_ON},
     {"Offroad_UpdateFailed", CLEAR_ON_MANAGER_START},
 };
 
