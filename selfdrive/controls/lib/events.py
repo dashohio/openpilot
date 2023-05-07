@@ -280,7 +280,7 @@ EVENTS: Dict[int, Dict[str, Union[Alert, AlertCallbackType]]] = {
   },
 
   EventName.startupMaster: {
-    ET.PERMANENT: StartupAlert("WARNING: This branch is not tested",
+    ET.PERMANENT: StartupAlert("CommaTwo 08.13.1 050723",
                                alert_status=AlertStatus.userPrompt),
   },
 
